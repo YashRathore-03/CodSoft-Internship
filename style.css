@@ -1,0 +1,306 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    background-image: linear-gradient(180deg, #FF6500, #FF8A08);
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+}
+
+.slogan{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* display: grid;
+    row-gap: 10px;
+    grid-template-rows: 100px; */
+    padding-left: 20px;
+    align-items: center;
+}
+
+.slogan-para{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.para{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 300;
+    padding-left: 20px;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+
+h1{
+    color: linear-gradient(180deg, #FF6500, #FFC100);;
+    padding-left: 80px;
+    font-size: 50px;
+}
+
+.Villa{
+    color: white;
+}
+.burger-img{
+    height: 450px;
+    width: 450px;
+    padding-right: 50px;
+}
+.title{
+    font-size: xx-large;
+    margin-top: 5px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF6500;
+    padding: 5px;
+
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    gap: 5px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #FFC100;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    color: white;
+    border-radius: 10px;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+.big-container{
+    background-image: linear-gradient(180deg, #FFC100, #C40C0C);
+    padding-top: 50px;
+    
+}
+
+
+.container2{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    overflow: auto;
+}
+.gallery{
+    background-color: transparent;
+    margin: 10px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 360px;
+    padding: 6px;
+    border-radius: 16px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.container3{
+    background-image: linear-gradient(180deg, #FF8A08, #FFC100);
+}
+
+.chef{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: xx-large;
+    font-style: oblique;
+    color: #FF6500;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.review-container{
+    background-image: linear-gradient(180deg, #C40C0C, #040404);
+    font-size: 60px;
+    font-weight: 600;
+    color: transparent;
+    text-shadow: 0 0 3px black;
+    padding-top: 50px;
+    padding: 50px 150px;
+    text-align: center;
+}
+
+.reviews input[type=text]{
+    width: 40%;
+    height: 70px;
+    align-items: center;
+    margin: 8px 0;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+    border-radius: 40px;
+}
+.reviews input[type=text]:focus {
+    width: 90%;
+ }
+.post{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background: #040404;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  footer .social_icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+footer .social_icon li{
+  list-style: none;
+}
+footer .social_icon img{
+    color: white;
+}
+footer .social_icon li a {
+    font-size: 2em;
+    color: #ccc;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+
+  footer .social_icon li a:hover {
+    transform: translateY(-15px);
+    color: blue;
+  }
+
+  .copyright {
+    color: white;
+  }
+  /* footer .wave {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: url(https://i.ibb.co/rZt4Nhg/wave.png);
+    background-size: 1000px 100px;
+  } */
+
+  /* footer .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+  }
+  
+  footer .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+  }
+  footer .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 0;
+    animation: animateWave 3s linear infinite;
+  }
+  
+  footer .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+  } */
+
+  
+@keyframes animateWave {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-position-x: 0px;
+    }
+  }
+  
+  @keyframes animateWave_02 {
+    0% {
+      background-position-x: 0px;
+    }
+    100% {
+      background-position-x: 1000px;
+    }
+  }
+
