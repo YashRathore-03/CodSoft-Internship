@@ -1,4 +1,4 @@
-# CodSoft-Internship
+# CodSoft-Internship Landing Page (Food Villa)
 #Task 1
 Landing Page: I have created a Resturant landing page where people can explore and rate the resturants.
 Language used: HTML, CSS
